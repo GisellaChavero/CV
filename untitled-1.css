@@ -1,0 +1,110 @@
+
+/* inicio*/ 
+
+.inicio{
+    background-image: url(imag/J4o.gif);
+    background-position: center center;
+    background-size: cover;
+    font-weight: 700;
+    height: 700px;
+    font-size: 30px;
+    color: rgb(9, 10, 10);
+    border: 24px inset #941042; 
+    text-align: center;
+
+}
+
+
+
+
+.nav{
+    list-style-type: none;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+   
+    background-color: hsl(257, 6%, 23%);
+    position: relative;
+    top: 15px;
+    left: 10px;
+    border-radius: 30px;
+    -webkit-box-shadow: 1px 3px 15px 5px rgba(255,255,255,0.94); 
+box-shadow: 1px 3px 15px 5px rgba(255,255,255,0.94);
+    
+}
+.nav a{
+    display: block;
+    color: rgb(255, 251, 251);
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+.nav a:hover {
+    background-color: rgb(221, 35, 128);
+    color: white;
+}
+
+.nombre{
+    color: purple;
+    padding: 140px 0 100px 0;
+    text-align: center;
+    font-size: 30px ;
+    position: absolute;
+    top: 300px;
+}
+.nombre h1{
+    color: rgb(221, 35, 128) ;
+}
+
+.foto{
+    position: relative;
+}
+.foto img{
+    max-width: 200px;
+    border-radius: 50%;
+    border: 5px solid #940253;
+    position: absolute;
+    left: 50%;
+    top: 60px;
+    transform: translateX(-50%);
+    
+}
+/* sobre mi*/ 
+.sobremi{
+    background-color: rgb(221, 35, 128) ;
+    background-position: center center;
+   
+    background-size: cover;
+    font-weight: 700;
+    height: 700px;
+    font-size: 25px;
+    color: rgb(9, 10, 10);
+    border: 24px inset #061620; 
+    text-align: center;
+   
+}
+
+
+
+
+
+/* contacto*/ 
+.contacto{
+    background-color: hwb(210 5% 95%);
+    background-position: center center;
+   
+    background-size: cover;
+    border: 24px inset #061620;
+    
+    height: 900px;
+    font-size: 30px;
+    text-align: center;
+    color: blanchedalmond;
+}
+/* contactame*/ 
+.contactame{
+    background-color: #010241;
+    
+}
+  
+
